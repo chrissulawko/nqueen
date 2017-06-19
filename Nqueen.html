@@ -1,0 +1,20 @@
+﻿<!DOCTYPE>
+<html>
+	<head>
+		<title>N Queen</title>
+	</head>
+	<body>
+		<div id="userInput" style="vertical-align:top">
+			<form onsubmit='init(); return false;'>
+			Enter number of queens:<input type="text" name="numQueens" id="numQueensInput" autofocus pattern="[0-9]+">
+			</input> <input type='submit' value="Go!" id="startButton" ></input>
+			</form>
+		</div>
+		<canvas id="canvas" width="800" height="800">Your browswer does not support HTML5 </canvas>
+		<div id="output-container">
+			<span>It has taken <span id="numMoves">...</span> moves to solve this n-queen</span>
+		</div>
+	<script type="text/javascript" src="nqueen.js"></script>
+	<!--<script type="text/javascript" src="http://dl.dropbox.com/u/2976636/JS%20Demo/game.js"></script> -->
+	</body>
+</html>
